@@ -155,6 +155,8 @@ Error message and password prompt
 
 <li>$:/SiteTitle</li>
 
+<li>$:/state/showeditpreview</li>
+
 <li>$:/state/sidebar</li>
 
 <li>$:/state/tab/moresidebar-1850697562</li>
@@ -169,13 +171,11 @@ Error message and password prompt
 
 <li>$:/themes/tiddlywiki/vanilla</li>
 
-<li>AA Contents</li>
-
 <li>Alpine Butterfly</li>
 
 <li>Ashley's Book of Knots</li>
 
-<li>Basic Knots</li>
+<li>Basic Scout Knots</li>
 
 <li>Bowline</li>
 
@@ -183,15 +183,27 @@ Error message and password prompt
 
 <li>Constrictor Knot</li>
 
+<li>Contents</li>
+
+<li>Diagonal Lashing</li>
+
+<li>Figure Eight Directional</li>
+
+<li>Floor Lashing</li>
+
 <li>Icicle Hitch</li>
 
 <li>Knots by Merit Badge</li>
 
 <li>Knots by Type</li>
 
+<li>Lashings</li>
+
 <li>Resources</li>
 
 <li>Rolling Hitch</li>
+
+<li>Round Lashing</li>
 
 <li>Round Turn with Two Half Hitches</li>
 
@@ -201,6 +213,8 @@ Error message and password prompt
 
 <li>Square Knot</li>
 
+<li>Square Lashing</li>
+
 <li>Strangle Knot</li>
 
 <li>Taut-Line Hitch</li>
@@ -209,9 +223,13 @@ Error message and password prompt
 
 <li>TODO</li>
 
+<li>Tripod Lashing</li>
+
 <li>Trucker's Hitch</li>
 
 <li>Two Half Hitches</li>
+
+<li>Water Knot</li>
 
 <li>Zeppelin Bend</li>
 
@@ -10099,16 +10117,13 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div created="20210412194042199" modified="20210420054722671" title="$:/DefaultTiddlers">
-<pre>[[Basic Knots]]
-[[Square Knot]]
-[[Two Half Hitches]]
-[[Taut-Line Hitch]]
-[[Sheet Bend]]
-[[Bowline]]
-[[Timber Hitch]]
-[[Clove Hitch]]
-[[Alpine Butterfly]]
+<div created="20210412194042199" modified="20210421060129647" title="$:/DefaultTiddlers">
+<pre>[[Contents]]
+[[Basic Knots]]
+[[Knots by Merit Badge]]
+[[Knots by Type]]
+[[Resources]]
+
 </pre>
 </div>
 <div status="complete" title="$:/Import">
@@ -10146,19 +10161,22 @@ Error message and password prompt
 <div created="20210412193928923" modified="20210412193929398" title="$:/SiteTitle">
 <pre>Knots</pre>
 </div>
+<div created="20230107033306893" modified="20230107033306893" title="$:/state/showeditpreview">
+<pre>yes</pre>
+</div>
 <div created="20210416173233776" modified="20210420044406924" title="$:/state/sidebar">
 <pre>yes</pre>
 </div>
 <div created="20210412200629543" modified="20210420052938360" title="$:/state/tab/moresidebar-1850697562">
 <pre>$:/core/ui/MoreSideBar/All</pre>
 </div>
-<div created="20210412193947719" modified="20210420052852669" title="$:/state/tab/sidebar--595412856">
-<pre>$:/core/ui/SideBar/More</pre>
+<div created="20210412193947719" modified="20230107035246373" title="$:/state/tab/sidebar--595412856">
+<pre>$:/core/ui/SideBar/Tools</pre>
 </div>
 <div title="$:/status/RequireReloadDueToPluginChange">
 <pre>no</pre>
 </div>
-<div created="20210420054651526" list="$:/ControlPanel [[AA Contents]] [[Basic Knots]] [[Knots by Rank/MB]] [[Square Knot]] [[Two Half Hitches]] [[Taut-Line Hitch]] [[Sheet Bend]] Bowline [[Timber Hitch]] [[Clove Hitch]] [[Alpine Butterfly]]" modified="20210420054657650" title="$:/StoryList">
+<div created="20230107030609496" list="$:/ControlPanel [[Square Lashing]] [[Tripod Lashing]] [[Taut-Line Hitch]] [[Trucker's Hitch]] TODO Contents [[Basic Scout Knots]] [[Knots by Merit Badge]] [[Water Knot]] [[Knots by Type]] [[Rolling Hitch]] Resources" modified="20230107035231394" title="$:/StoryList">
 <pre></pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="$:/themes/tiddlywiki/vanilla" description="Emphasises individual tiddlers" name="Snow White" plugin-priority="0" plugin-type="theme" title="$:/themes/tiddlywiki/snowwhite" type="application/json" version="5.1.23">
@@ -10270,19 +10288,6 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div created="20210412201336629" modified="20210420052424263" tags="" title="AA Contents">
-<pre>[[Basic Knots]] &lt;br&gt;
-[[Knots by Merit Badge]] &lt;br&gt;
-[[Knots by Type]]
-
-[[Resources]]
-
-Don Bennett &lt;br&gt;
-Scoutmaster, Troop 14 &lt;br&gt;
-dpb@donbennett.org
-
-</pre>
-</div>
 <div created="20210412193340586" modified="20210420052951067" tags="basic" title="Alpine Butterfly">
 <pre>ABOK #532, #1053
 
@@ -10304,7 +10309,7 @@ Link to [[ABOK|https://archive.org/details/TheAshleyBookOfKnots]] at the Interne
 
 </pre>
 </div>
-<div created="20210324060002687" modified="20210420052613349" tags="basic" title="Basic Knots">
+<div created="20210324060002687" modified="20230107030540043" tags="basic" title="Basic Scout Knots">
 <pre>''Scout''&lt;br&gt;
 [[Square Knot]] &lt;br&gt;
 [[Two Half Hitches]] &lt;br&gt;
@@ -10362,6 +10367,37 @@ If the diameter of whatever is being bound is large, double the diagonal part to
 
 The constrictor knot is one of the most effective binding knots. Simple and secure, it is a harsh knot that can be difficult or impossible to untie once tightened. It is made similarly to a clove hitch but with one end passed under the other, forming an overhand knot under a riding turn. [Wikipedia]</pre>
 </div>
+<div created="20210412201336629" modified="20210424044616436" tags="" title="Contents">
+<pre>[[Basic Knots]] &lt;br&gt;
+[[Knots by Merit Badge]] &lt;br&gt;
+[[Knots by Type]] &lt;br&gt;
+[[Lashings]]
+
+[[Resources]]
+
+Don Bennett &lt;br&gt;
+Scoutmaster, Troop 14 &lt;br&gt;
+dpb@donbennett.org
+
+</pre>
+</div>
+<div created="20210424045143721" modified="20210424045446991" title="Diagonal Lashing">
+<pre>[[Animated Knots|https://www.animatedknots.com/diagonal-lashing-knot]] &lt;br&gt;
+[[Troop Resources|https://www.animatedknots.com/square-lashing-knot]] &lt;br&gt;
+
+The Diagonal Lashing Knot (ABOK # 2115, p 343.) is used to lash two spars together. Unlike the Square lashing which works for right angle crossings, the diagonal lashing secures poles crossing each other at a variety of angles.
+
+</pre>
+</div>
+<div created="20210425221750445" modified="20210425221854133" title="Figure Eight Directional">
+<pre>[[Animated Knots|https://www.animatedknots.com/figure-8-directional-loop-knot]]
+
+The Directional Figure 8 Knot is quickly tied and is designed to take a load in one direction only.</pre>
+</div>
+<div created="20210425041655038" modified="20210425041756447" title="Floor Lashing">
+<pre>[[Troop Resources|https://troopresources.scouting.org/floor-lashing/]] &lt;br&gt;
+</pre>
+</div>
 <div created="20210413180811980" modified="20210413181048490" title="Icicle Hitch">
 <pre>[[Animated Knots|https://www.animatedknots.com/icicle-hitch-knot-loop-method]]
 
@@ -10395,7 +10431,7 @@ In August of 2009 Practical Sailor reported on their testing of slide and grip k
 
 </pre>
 </div>
-<div created="20210205064004657" modified="20210417064127178" tags="" title="Knots by Type">
+<div created="20210205064004657" modified="20210425221937562" tags="" title="Knots by Type">
 <pre>''Bends and Other Joining Knots'' &lt;br&gt;
 
 |[[Square Knot]] |Scout |
@@ -10434,15 +10470,13 @@ In August of 2009 Practical Sailor reported on their testing of slide and grip k
 |&amp;nbsp; &amp;nbsp; [[Bowline on a bight]] |||
 |&amp;nbsp; &amp;nbsp; [[Tricorn Loop]]||bind with twisted overhand|
 |[[Alpine Butterfly]] |Pioneering MB ||
+|[[Figure Eight on a Bight]] |Climbing MB ||
+|[[Figure Eight Follow Through]] |Climbing MB ||
+|[[Figure Eight Directional]] |Climbing MB ||
 
 ''Other Pioneering Knots'' &lt;br&gt;
 
 |[[Sheepshank]] |Pioneering MB |
-
-''Other Climbing Knots''&lt;br&gt;
-
-|[[Figure Eight on a Bight]] |Climbing MB |
-|[[Figure Eight Follow Through]] |Climbing MB |
 
 ''Other Fishing Knots'' &lt;br&gt;
 
@@ -10451,6 +10485,14 @@ In August of 2009 Practical Sailor reported on their testing of slide and grip k
 |[[Uni Knot]] |Fishing MB |
 |[[Uni to Uni Knot]] Fishing MB |
 |[[Arbor Knot]] |Fishing MB |
+</pre>
+</div>
+<div created="20210424044624115" modified="20210425041816445" title="Lashings">
+<pre>[[Square Lashing]] &lt;br&gt;
+[[Diagonal Lashing]] &lt;br&gt;
+[[Tripod Lashing]] &lt;br&gt;
+[[Floor Lashing]]&lt;br&gt;
+[[Round Lashing]] &lt;br&gt;
 </pre>
 </div>
 <div created="20210207221223667" modified="20210413033250728" tags="" title="Resources">
@@ -10475,18 +10517,26 @@ In August of 2009 Practical Sailor reported on their testing of slide and grip k
 
 [[Animated Knots|https://www.animatedknots.com/shop]]</pre>
 </div>
-<div created="20210207230631456" modified="20210413180647686" tags="" title="Rolling Hitch">
-<pre>ABOK #1735
+<div created="20210207230631456" modified="20230107031401981" tags="" title="Rolling Hitch">
+<pre>ABOK #1734, #1735
 
-[[Animated Knots|https://www.animatedknots.com/rolling-hitch-knot]]
+[[V1: Troop Resources|https://troopresources.scouting.org/rolling-hitch/]] &lt;br&gt;
+[[V2: Animated Knots|https://www.animatedknots.com/rolling-hitch-knot]]
 
-This knot is like a clove hitch, but double the second top wrap and finish the tie-off under only one diagonal.
+Use V1, #1734, to attach a rope to a pole. Start as a clove hitch, add an additional round turn, then complete. This version is called the Right Angle Hitch in the Navy SEAL Underwater Knot Tying Test.
+
+Use V2, #1735, to attach a rope to another rope. This knot is like a clove hitch, but double the second top wrap and finish the tie-off under only one diagonal.
 
 This knot is useful when the direction of pull is other than a right-angle but still fairly steady.
 
 See also: &lt;br&gt;
 [[Icicle Hitch]]
 
+</pre>
+</div>
+<div created="20210425041826391" modified="20210425041959582" title="Round Lashing">
+<pre>[[Animated Knots|https://www.animatedknots.com/round-lashing-knot]] &lt;br&gt;
+[[Troop Resources|https://troopresources.scouting.org/round-lashing/]]
 </pre>
 </div>
 <div created="20210412193202661" modified="20210412203015603" tags="" title="Round Turn with Two Half Hitches">
@@ -10525,6 +10575,14 @@ One of the best but most misused of knots is the Reef or Square Knot. Employed a
 
 &quot;To finish a bandage or reefing a sail, a reef knot the role will fulfill; &lt;br&gt;
  but for tieing two ends, you must always use bends, &lt;br&gt; as a reef knots a sure way to  kill!&quot;
+
+</pre>
+</div>
+<div created="20210424044802604" modified="20210424045133283" title="Square Lashing">
+<pre>[[Animated Knots|https://www.animatedknots.com/square-lashing-knot]] &lt;br&gt;
+[[Troop Resources|https://troopresources.scouting.org/square-lashing/]] &lt;br&gt;
+
+Use the Square Lashing to join two poles at near right-angles.
 
 </pre>
 </div>
@@ -10571,6 +10629,12 @@ See Also: &lt;br&gt;
 
 </pre>
 </div>
+<div created="20210425040352292" modified="20210425041152739" title="Tripod Lashing">
+<pre>[[Troop Resources|https://troopresources.scouting.org/tripod-lashing/]] &lt;br&gt;
+[[Animated Knots|https://www.animatedknots.com/tripod-lashing-knot]] &lt;br&gt;
+
+</pre>
+</div>
 <div created="20210415001435899" modified="20210415012947589" title="Trucker's Hitch">
 <pre>[[Animated Knots|https://www.animatedknots.com/truckers-hitch-knot]] &lt;br&gt;
 [[Animated Knots - Quick Release|https://www.animatedknots.com/truckers-hitch-knot-quick-release]] &lt;br&gt;
@@ -10597,9 +10661,19 @@ Related: &lt;br&gt;
 
 </pre>
 </div>
-<div created="20210207212632040" modified="20210414202034667" tags="" title="Zeppelin Bend">
+<div created="20230107031633606" modified="20230107033331769" title="Water Knot">
+<pre>ABOK #296
+
+[[Animated Knots|https://www.animatedknots.com/water-knot]]
+
+
+The Water Knot is is an overhand knot with follow-through.
+It is used to join two pieces of webbing or strapping.
+</pre>
+</div>
+<div created="20210207212632040" modified="20221130073418820" tags="" title="Zeppelin Bend">
 <pre>[[Animated Knots|https://www.animatedknots.com/zeppelin-bend-knot]] &lt;br&gt;
-[[Scouting U|https://vimeo.com/157984962]]
+[[Scouting U|https://troopresources.scouting.org/zeppelin-bend/]]
 
 Although highly improbable, the Zeppelin Bend has been described as being used to secure Airships.
 
